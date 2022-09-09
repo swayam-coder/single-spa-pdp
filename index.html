@@ -46,7 +46,7 @@
   </head>
   <body>
     <script>
-      System.import('single-spa').then(function (singleSpa) {
+      System.import('single-spa').then(function (singleSpa) {  <!-- what if this doesn't exist -->
         singleSpa.registerApplication(
           'header',
           () => System.import('header'),
